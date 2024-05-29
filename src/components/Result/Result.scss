@@ -1,0 +1,24 @@
+.result {
+  &-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &-card {
+    text-align: left;
+
+    &_picture {
+      cursor: pointer;
+    }
+  }
+}
+.ui.card.result-card {
+  margin: 0 10px;
+  margin-bottom: 15px;
+  height: 480px;
+  overflow-y: hidden;
+
+  &:last-child {
+    margin-bottom: 15px;
+  }
+}
